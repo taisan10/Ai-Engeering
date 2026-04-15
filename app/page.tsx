@@ -212,8 +212,8 @@ useChatStore.setState((state) => {
           key={i}
           className={`mb-2 p-2 rounded max-w-[80%] ${
            msg.role === "user"
-  ? "bg-blue-500 text-white ml-180"
-  : "bg-gray-100 dark:bg-gray-700 text-black dark:text-white mr-280"
+  ? "bg-blue-500 text-white ml-250"
+  : "bg-gray-100 dark:bg-gray-700 text-black dark:text-white mr-220"
           }`}
         >
          <div className="flex flex-col gap-1">
